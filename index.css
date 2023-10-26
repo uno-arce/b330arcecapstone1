@@ -1,0 +1,205 @@
+/*iPhone XR*/
+@media (max-width: 650px) {
+	#dev-name {
+		font-size: 20px;
+		color: #001AFF;
+	}
+
+	#title {
+		font-size: 24px;
+		font-family: 'Unbounded', sans-serif;
+		font-weight: bold;
+		color: #001AFF;
+	}
+	#projects-title, #tools-title, #contact-title {
+		font-family: 'Unbounded', sans-serif;
+		font-size: 22px;
+		font-weight: bold;
+		color: #001AFF;
+	}
+	#projects-project, #tools-tool, #contact-subtitle {
+		font-family: 'Kosugi Maru', sans-serif;
+		font-size: 20px;
+		color: #001AFF;
+	}
+}
+
+/*Nest Hub and Ipad Mini*/
+@media (min-width: 768px) {
+	#dev-name {
+		font-size: 38px;
+		color: #001AFF;
+	}
+	#title {
+		font-family: 'Unbounded', sans-serif;
+		font-size: 44px;
+		font-weight: bold;
+		color: #001AFF;
+	}
+	#projects-title, #tools-title, #contact-title {
+		font-family: 'Unbounded', sans-serif;
+		font-size: 40px;
+		font-weight: bold;
+		color: #001AFF;
+	}
+	#projects-project, #tools-tool, #contact-subtitle {
+		font-family: 'Kosugi Maru', sans-serif;
+		font-size: 38px;
+		color: #001AFF;
+	}
+}
+
+body {
+	background-image: url("./assets/concrete.png");
+}
+
+#navbar {
+	background-color: #001AFF;
+	position: sticky;
+	top: 0;
+}
+
+.navbar-nav {
+	margin-left: auto;
+	padding-right: 1rem;
+}
+
+.container-fluid > a {
+	font-family: 'Kosugi Maru', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+.nav-item > .nav-link {
+	font-family: 'Kosugi Maru', sans-serif;
+	font-size: 16px;
+	color: lightgray;
+}
+
+h4 {
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+h5 {
+	font-family: 'Unbounded', sans-serif;
+}
+
+p {
+	font-family: 'Urbanist', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#landing {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#landing-accent {
+	background-color: #001AFF;
+}
+
+#landing-visuals {
+	height: 508px;
+}
+
+#landing-html {
+	background-image: url("./assets/html-abstract.jpg");
+	background-size: cover;
+	height: 222px;
+	border: 1px solid black;
+	border-left: none;
+	border-top: none;
+}
+
+#landing-js {
+	height: 222px;
+	border: 1px solid black;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+
+#landing-js img {
+	height: 222px;
+}
+
+#landing-mern {
+	background-image: url("./assets/mern-abstract.png");
+	background-size: 40% 80%;
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 286px;
+	border: 1px solid black;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+#landing-css {
+	background-image: url("./assets/css-abstract.jpg");
+	background-size: cover;
+	height: 286px;
+	border: 1px solid black;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+#landing-intro li {
+	font-family: 'Urbanist', sans-serif;
+	font-size: 16px;
+}
+
+#projects {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.project-two-spacing {
+	margin-top: 150px;
+}
+
+#tools {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#tools-img {
+	height: 150px;
+	margin: 0 auto;
+}
+
+#tools-skill > p {
+	font-size: 13px;
+	color: #001AFF;
+}
+
+#contact {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#contact label {
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+#contact input, #contact textarea {
+	font-family: 'Urbanist', sans-serif;
+}
+
+#contact button {
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+#contact-platforms {
+	font-family: 'Kosugi Maru', sans-serif;
+	color: #001AFF;
+}
+
+
+
+
+
+
