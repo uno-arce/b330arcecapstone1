@@ -1,205 +1,180 @@
-/*iPhone XR*/
-@media (max-width: 767px) {
-	#dev-name {
-		font-size: 20px;
-		color: #001AFF;
-	}
-
-	#title {
-		font-size: 24px;
-		font-family: 'Unbounded', sans-serif;
-		font-weight: bold;
-		color: #001AFF;
-	}
-	#projects-title, #tools-title, #contact-title {
-		font-family: 'Unbounded', sans-serif;
-		font-size: 22px;
-		font-weight: bold;
-		color: #001AFF;
-	}
-	#projects-project, #tools-tool, #contact-subtitle {
-		font-family: 'Kosugi Maru', sans-serif;
-		font-size: 20px;
-		color: #001AFF;
-	}
+@media (max-width: 991px) {
+    #hero-bg {
+       height: auto;
+    }
 }
 
-/*Nest Hub and Ipad Mini*/
-@media (min-width: 768px) {
-	#dev-name {
-		font-size: 38px;
-		color: #001AFF;
-	}
-	#title {
-		font-family: 'Unbounded', sans-serif;
-		font-size: 44px;
-		font-weight: bold;
-		color: #001AFF;
-	}
-	#projects-title, #tools-title, #contact-title {
-		font-family: 'Unbounded', sans-serif;
-		font-size: 40px;
-		font-weight: bold;
-		color: #001AFF;
-	}
-	#projects-project, #tools-tool, #contact-subtitle {
-		font-family: 'Kosugi Maru', sans-serif;
-		font-size: 38px;
-		color: #001AFF;
-	}
+nav {
+	background-color: #e7e1cb;
+	font-family: "EB Garamond", serif !important;
+	font-optical-sizing: auto !important;
+	font-weight: 600 !important;
+	font-style: normal !important;
+	padding: 0 !important;
 }
+
+.navbarNav .nav-link {
+  color: #15171A;
+}
+
 
 body {
-	background-image: url("./assets/concrete.png");
+	background-color: #e7e1cb !important;
+	font-family: "EB Garamond", serif !important;
+	color: #15171A;
 }
 
-#navbar {
-	background-color: #001AFF;
-	position: sticky;
-	top: 0;
+#title-header {
+	font-size: 50px;
 }
 
-.navbar-nav {
-	margin-left: auto;
-	padding-right: 1rem;
+#subtitle {
+	font-size: 2vw;
+	font-optical-sizing: auto !important;
+	font-weight: 500 !important;
+	font-style: normal !important;
 }
 
-.container-fluid > a {
-	font-family: 'Kosugi Maru', sans-serif;
-	font-size: 16px;
+#hero-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+	                  url('https://images.unsplash.com/photo-1534110522683-a12a21d31420?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 670px;
+	min-height: 280px;
+	height: 670px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 	color: white;
 }
 
-.nav-item > .nav-link {
-	font-family: 'Kosugi Maru', sans-serif;
-	font-size: 16px;
-	color: lightgray;
+#hero {
+	font-size: 4vw;
+	font-optical-sizing: auto !important;
+	font-weight: 500 !important;
+	font-style: normal !important;
+	color: #fff;
 }
 
-h4 {
-	font-family: 'Kosugi Maru', sans-serif;
+#lang {
+	font-size: 1vw;
+	font-weight: 500 !important;
 }
 
-h5 {
-	font-family: 'Unbounded', sans-serif;
+#sub-hero {
+	background-color: #e7e1cb;
 }
 
-p {
-	font-family: 'Urbanist', sans-serif;
-	font-size: 16px;
-	text-align: justify;
-}
-
-#landing {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-#landing-accent {
-	background-color: #001AFF;
-}
-
-#landing-visuals {
-	height: 508px;
-}
-
-#landing-html {
-	background-image: url("./assets/html-abstract.jpg");
-	background-size: cover;
-	height: 222px;
-	border: 1px solid black;
-	border-left: none;
-	border-top: none;
-}
-
-#landing-js {
-	height: 222px;
-	border: 1px solid black;
-	border-left: none;
-	border-top: none;
-	border-right: none;
-}
-
-#landing-js img {
-	height: 222px;
-}
-
-#landing-mern {
-	background-image: url("./assets/mern-abstract.png");
-	background-size: 40% 80%;
+#sub-hero-image {
+	background-image: url("https://images.unsplash.com/photo-1680458841639-8393e9a8b06e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
-    background-position: center;
-	height: 286px;
-	border: 1px solid black;
-	border-left: none;
-	border-top: none;
-	border-bottom: none;
+	height: 30vw;
+	width: 100%;
 }
 
-#landing-css {
-	background-image: url("./assets/css-abstract.jpg");
+#about-profile {
+	background-image: url("./assets/about-profile.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 28vw;
+	width: 100%;
+}
+
+#about-info {
+	max-width: 750px;
+}
+
+.accordion {
+	--bs-accordion-btn-bg: #e7e1cb !important;
+	--bs-accordion-border-color: darkgray !important;
+	--bs-accordion-bg: #e7e1cb !important;
+	--bs-accordion-active-bg: none !important;
+	--bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+#projects-backend {
+	background-image: url("./assets/backend.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 25vw;
+	width: 100%;
+}
+
+#artwork-1 {
+	background-image: url("./assets/clouds.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 100%;
+}
+
+#artwork-2 {
+	background-image: url("./assets/corners.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 100%;
+}
+
+#tools-frontend {
+	background-image: url("./assets/frontend.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+}
+
+#tools-mern {
+	background-image: url("./assets/mern.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 100%;
+}
+
+#tools-dev {
+	background-image: url("./assets/dev.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+}
+
+#contact-facebook {
+	background-image: url("./assets/facebook.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 54px;
+}
+
+#contact-linkedin {
+	background-image: url("./assets/linkedin-logo.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 54px;
+}
+
+#contact-github {
+	background-image: url("./assets/github-logo.png");
 	background-size: cover;
-	height: 286px;
-	border: 1px solid black;
-	border-left: none;
-	border-top: none;
-	border-right: none;
-	border-bottom: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 54px;
 }
-
-#landing-intro li {
-	font-family: 'Urbanist', sans-serif;
-	font-size: 16px;
-}
-
-#projects {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-.project-two-spacing {
-	margin-top: 150px;
-}
-
-#tools {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-#tools-img {
-	height: 150px;
-	margin: 0 auto;
-}
-
-#tools-skill > p {
-	font-size: 13px;
-	color: #001AFF;
-}
-
-#contact {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-#contact label {
-	font-family: 'Kosugi Maru', sans-serif;
-}
-
-#contact input, #contact textarea {
-	font-family: 'Urbanist', sans-serif;
-}
-
-#contact button {
-	font-family: 'Kosugi Maru', sans-serif;
-}
-
-#contact-platforms {
-	font-family: 'Kosugi Maru', sans-serif;
-	color: #001AFF;
-}
-
-
-
-
-
-
